@@ -1,6 +1,10 @@
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
-}"scripts": {
-  "start": "node index.js",
-  "dev": "nodemon index.js"
+import React from 'react'
+
+export default function App() {
+  return (
+    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+      <h1>KnowMe Social Network</h1>
+      <p>App deployed successfully!</p>
+    </div>
+  )
 }
